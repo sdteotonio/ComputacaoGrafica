@@ -36,21 +36,6 @@ namespace ProjetoCG.Util
             return positionNormal;
         }
 
-        private int NomalizedX { get; set; }
-        private int NomalizedY { get; set; }
-
-
-
-        public int[] getPointNormalized(double x, double y)
-        {
-            userToNdc(x, y);
-            int[] result = { NomalizedX, NomalizedY };
-            return result;
-
-        }
-
-
-
         private void userToNdc(double worldX, double worldY)
         {
             ndcy = ((worldY - minY) / (maxY - minY));
@@ -69,8 +54,6 @@ namespace ProjetoCG.Util
 
             dcy = Math.Round((window[1] - 1) * ndcy);
             //Console.WriteLine("dcy = " + dcy);
-            NomalizedX = Convert.ToInt32(dcx);
-            NomalizedY = Convert.ToInt32(dcy);
 
         }
 

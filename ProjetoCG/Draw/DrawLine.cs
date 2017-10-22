@@ -9,22 +9,16 @@ using System.Windows.Forms;
 
 namespace ProjetoCG.Draw
 {
-    class DrawLine
+    class DrawLine : Draw
     {
-        private PictureBox pictureBox;
         private double x0, x1, y0, y1;
-        private Normalize nor;
-        private Color color;
-        public Bitmap bitmap { get; set; }
 
-        public DrawLine(PictureBox pictureBox)
+        public DrawLine(PictureBox pictureBox) : base(pictureBox)
         {
-            this.pictureBox = pictureBox;
-            this.bitmap = new Bitmap(pictureBox.Width, pictureBox.Height);
         }
+
         public void Draw(double[] startPoint, double[] endPoint, Color color)
         {
-            this.nor = new Normalize(pictureBox);
             this.color = color;
             x0 = startPoint[0];
             y0 = startPoint[1];
@@ -51,8 +45,8 @@ namespace ProjetoCG.Draw
             {
                 incl = 1;
             }
-            //Definicao dos incrementos e D inicial
-            double incE, incNE, d;
+            //Definicao do D inicial
+            double  d;
 
             //Ponto auxiliaar
             double[] auxPoint = { x0, y0 };
@@ -146,7 +140,7 @@ namespace ProjetoCG.Draw
         }
         private void SetPixel(double tempX, double tempY)
         {
-            bitmap.SetPixel(nor.GetPointNormalized(tempX, (tempY * -1))[0], nor.GetPointNormalized(tempX, (tempY * -1))[1], color);
+            bitmap.SetPixel(normalize.GetPointNormalized(tempX, (tempY * -1))[0], normalize.GetPointNormalized(tempX, (tempY * -1))[1], color);
         }
     }
 }

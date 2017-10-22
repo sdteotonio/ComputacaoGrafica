@@ -51,3 +51,12 @@ D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.exe
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.pdb
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\bin\Debug\ProjetoCG.exe
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\bin\Debug\ProjetoCG.pdb
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.Principal.resources
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.exe
+D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.pdb

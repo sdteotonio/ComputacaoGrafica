@@ -9,37 +9,19 @@ using System.Windows.Forms;
 
 namespace ProjetoCG.Draw
 {
-    class DrawPixel
+    class DrawPixel : Draw
     {
-        public Bitmap bitmap { get; set; }
-        private PictureBox pictureBox;
-        private Color color;
 
 
-        public DrawPixel(PictureBox pictureBox)
-        {
-            this.pictureBox = pictureBox;
+        public DrawPixel(PictureBox pictureBox) : base(pictureBox) {
+                
         }
 
         public void Draw(double positionX, double positionY, Color color)
         {
-
             this.color = color;
-
-            double[] windowMaxsSize = { pictureBox.Width, pictureBox.Height };
-
-            Normalize normalize = new Normalize(pictureBox);
-
-            drawPixel(normalize.getPointNormalized(positionX, -positionY));
+       
+            bitmap.SetPixel(normalize.GetPointNormalized(positionX, -positionY)[0], normalize.GetPointNormalized(positionX, -positionY)[1], color);
         }
-        private void drawPixel(int[] normalizedPoint)
-        {
-            Bitmap img = bitmap;
-            img.SetPixel(normalizedPoint[0], normalizedPoint[1], color);
-            pictureBox.Image = img;
-
-        }
-
-
     }
 }
