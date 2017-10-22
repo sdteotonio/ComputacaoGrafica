@@ -1,0 +1,54 @@
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.Form1.resources
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\bin\Debug\ProjetoCG.exe
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\bin\Debug\ProjetoCG.pdb
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.exe
+c:\users\larissa\documents\visual studio 2013\Projects\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.pdb
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.exe
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.pdb
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\bin\Debug\ProjetoCG.exe
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\bin\Debug\ProjetoCG.pdb
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.Form1.resources
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+C:\Users\sbfarias\Downloads\Documents\Projetos\ProjetoCG\ProjetoCG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
+D:\Projetos(D)\CG\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+D:\Projetos(D)\CG\ProjetoCG\bin\Debug\ProjetoCG.exe
+D:\Projetos(D)\CG\ProjetoCG\bin\Debug\ProjetoCG.pdb
+D:\Projetos(D)\CG\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+D:\Projetos(D)\CG\ProjetoCG\obj\Debug\ProjetoCG.Form1.resources
+D:\Projetos(D)\CG\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+D:\Projetos(D)\CG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
+D:\Projetos(D)\CG\ProjetoCG\obj\Debug\ProjetoCG.exe
+D:\Projetos(D)\CG\ProjetoCG\obj\Debug\ProjetoCG.pdb
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\bin\Debug\ProjetoCG.exe
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\bin\Debug\ProjetoCG.pdb
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\obj\Debug\ProjetoCG.Form1.resources
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\obj\Debug\ProjetoCG.exe
+D:\Projetos(D)\VisualStudio\CG\ProjetoCG\obj\Debug\ProjetoCG.pdb
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\obj\Debug\ProjetoCG.exe
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\obj\Debug\ProjetoCG.pdb
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\bin\Debug\ProjetoCG.exe
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\bin\Debug\ProjetoCG.pdb
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\obj\Debug\ProjetoCG.Principal.resources
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+C:\Users\sdteotonio\Desktop\CG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\bin\Debug\ProjetoCG.exe
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\bin\Debug\ProjetoCG.pdb
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.Principal.resources
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.exe
+D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.pdb
