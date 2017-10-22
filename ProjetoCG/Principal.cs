@@ -20,33 +20,6 @@ namespace ProjetoCG
             txtLarguraDeTela.Text = ("Largura de tela:" + pictureBox1.Width + "x" + pictureBox1.Height);
             //Iniciar com cartesiano simples
             pictureBox1.Image = GetBitmapwWhitCartesian();
-            triangulo();
-        }
-
-        private void triangulo()
-        {
-            DrawLine drawLine = new DrawLine(pictureBox1);
-            drawLine.bitmap = GetBitmapwWhitCartesian();
-            try
-            {
-                //1 linha
-                double[] startPoint = { 50, 50 };
-                double[] endPoint = { 100, 100 };
-                drawLine.Draw(startPoint, endPoint, Color.Blue);
-                // 2 linha 
-                startPoint = new double[] { 100, 100 };
-                endPoint = new double[] { 150, 50 };
-                drawLine.Draw(startPoint, endPoint, Color.Blue);
-                // 3 linha
-                startPoint = new double[] { 50, 50 };
-                endPoint = new double[] { 150, 50 };
-                drawLine.Draw(startPoint, endPoint, Color.Blue);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            pictureBox1.Image = drawLine.bitmap;
         }
         /// <summary>
         ///  Gerar um Bitmap com plano cartesiano

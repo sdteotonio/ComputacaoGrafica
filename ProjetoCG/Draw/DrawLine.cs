@@ -51,8 +51,8 @@ namespace ProjetoCG.Draw
             {
                 incl = 1;
             }
-            //Definicao  D inicial
-            double d;
+            //Definicao dos incrementos e D inicial
+            double incE, incNE, d;
 
             //Ponto auxiliaar
             double[] auxPoint = { x0, y0 };

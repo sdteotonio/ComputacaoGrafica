@@ -46,7 +46,6 @@ C:\Users\sdteotonio\Desktop\CG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateReso
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\bin\Debug\ProjetoCG.exe.config
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\bin\Debug\ProjetoCG.exe
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\bin\Debug\ProjetoCG.pdb
-D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.Principal.resources
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
 D:\Projetos(D)\VisualStudio\Computacao grafica\CG\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
