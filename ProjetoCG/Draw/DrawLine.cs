@@ -13,10 +13,6 @@ namespace ProjetoCG.Draw
     {
         private double x0, x1, y0, y1;
 
-        public DrawLine(PictureBox pictureBox) : base(pictureBox)
-        {
-        }
-
         public void Draw(double[] startPoint, double[] endPoint, Color color)
         {
             this.color = color;

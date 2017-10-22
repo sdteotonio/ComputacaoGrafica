@@ -12,11 +12,6 @@ namespace ProjetoCG.Draw
     class DrawPixel : Draw
     {
 
-
-        public DrawPixel(PictureBox pictureBox) : base(pictureBox) {
-                
-        }
-
         public void Draw(double positionX, double positionY, Color color)
         {
             this.color = color;

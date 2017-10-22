@@ -1,4 +1,7 @@
-﻿using ProjetoCG.Draw;
+﻿using ProjetoCG.Components;
+using ProjetoCG.Draw;
+using ProjetoCG.Objects;
+using ProjetoCG.Util;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,21 +16,41 @@ namespace ProjetoCG
 {
     public partial class Principal : Form
     {
-
+        public static PictureBox myPicturebox;
+        public Bitmap mBitmap;
         public Principal()
-        {
+        { 
             InitializeComponent();
-            txtLarguraDeTela.Text = ("Largura de tela:" + pictureBox1.Width + "x" + pictureBox1.Height);
+            txtLarguraDeTela.Text = ("Tamamho da tela:" + pictureBox1.Width + "x" + pictureBox1.Height);
+            myPicturebox = pictureBox1;
             //Iniciar com cartesiano simples
-            pictureBox1.Image = GetBitmapwWhitCartesian();
+            ClearView();
         }
+
+        private void ClearView()
+        {
+            mBitmap = GetBitmapwWhitCartesian();
+            UpdateView();
+        }
+
+        private void UpdateView() {
+            pictureBox1.Image = mBitmap;
+        }
+        private void DrawCircleMethod()
+        {
+            DrawCircle drawCircle = new DrawCircle();
+            drawCircle.bitmap = mBitmap;
+            drawCircle.DrawFromCenter(100, Color.Orange);
+            
+        }
+
         /// <summary>
         ///  Gerar um Bitmap com plano cartesiano
         /// </summary>
         /// <returns></returns>
         private Bitmap GetBitmapwWhitCartesian()
         {
-            DrawLine drawLine = new DrawLine(pictureBox1);
+            DrawLine drawLine = new DrawLine();
             //Desenhar Linha horizontal
             drawLine.Draw(new double[] { -(pictureBox1.Width / 2), 0 }, new double[] { (pictureBox1.Width / 2), 0 }, Color.Red);
             //Desenhar Linha Vertical
@@ -42,8 +65,8 @@ namespace ProjetoCG
         private void button1_Click(object sender, EventArgs e)
         {
 
-            DrawPixel drawPixel = new DrawPixel(pictureBox1);
-            drawPixel.bitmap = GetBitmapwWhitCartesian();
+            DrawPixel drawPixel = new DrawPixel();
+            drawPixel.bitmap = mBitmap;
             try
             {
                 drawPixel.Draw(double.Parse(textBox1.Text), double.Parse(textBox2.Text), Color.Blue);
@@ -52,7 +75,7 @@ namespace ProjetoCG
             {
                 Console.WriteLine(ex.Message);
             }
-            pictureBox1.Image = drawPixel.bitmap;
+            UpdateView();
 
 
         }
@@ -64,8 +87,8 @@ namespace ProjetoCG
         private void button2_Click_1(object sender, EventArgs e)
         {
 
-            DrawLine drawLine = new DrawLine(pictureBox1);
-            drawLine.bitmap = GetBitmapwWhitCartesian();
+            DrawLine drawLine = new DrawLine();
+            drawLine.bitmap = mBitmap;
             try
             {
                 double[] startPoint = { double.Parse(px1.Text), double.Parse(py1.Text) };
@@ -76,7 +99,12 @@ namespace ProjetoCG
             {
                 Console.WriteLine(ex.Message);
             }
-            pictureBox1.Image = drawLine.bitmap;
+            UpdateView();
+        }
+
+        private void btnLimparTela_Click(object sender, EventArgs e)
+        {
+            ClearView();
         }
     }
 }

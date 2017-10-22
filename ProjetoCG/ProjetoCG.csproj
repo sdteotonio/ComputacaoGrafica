@@ -44,10 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\Matrix.cs" />
     <Compile Include="Draw\Draw.cs" />
     <Compile Include="Draw\DrawCircle.cs" />
     <Compile Include="Draw\DrawLine.cs" />
     <Compile Include="Draw\DrawPixel.cs" />
+    <Compile Include="Objects\DrawObject.cs" />
+    <Compile Include="Objects\Triangle.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +60,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\Normalize.cs" />
+    <Compile Include="Util\Point2D.cs" />
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>

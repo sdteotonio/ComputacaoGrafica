@@ -12,15 +12,13 @@ namespace ProjetoCG.Util
 
         double ndcx, ndcy, dcx, dcy, maxX, minX, maxY, minY;
         private double[] window;
-
-        public Normalize(PictureBox environment)
+        public PictureBox environment = Principal.myPicturebox;
+        public Normalize()
         {
             double[] windowReceive = { environment.Width, environment.Height };
             this.window = windowReceive;
             this.maxX = (environment.Width / 2);
             this.minX = -(environment.Width / 2);
-
-
             this.maxY = (environment.Height / 2);
             this.minY = -(environment.Height / 2);
 
