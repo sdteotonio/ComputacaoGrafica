@@ -25,12 +25,14 @@ namespace ProjetoCG
             myPicturebox = pictureBox1;
             //Iniciar com cartesiano simples
             ClearView();
+        
         }
 
         private void ClearView()
         {
             mBitmap = GetBitmapwWhitCartesian();
             UpdateView();
+
         }
 
         private void UpdateView() {
@@ -52,9 +54,9 @@ namespace ProjetoCG
         {
             DrawLine drawLine = new DrawLine();
             //Desenhar Linha horizontal
-            drawLine.Draw(new double[] { -(pictureBox1.Width / 2), 0 }, new double[] { (pictureBox1.Width / 2), 0 }, Color.Red);
+            drawLine.Draw(new Point2D(-(pictureBox1.Width / 2), 0), new Point2D((pictureBox1.Width / 2), 0), Color.Red);
             //Desenhar Linha Vertical
-            drawLine.Draw(new double[] { 0, -(pictureBox1.Height / 2) }, new double[] { 0, (pictureBox1.Height / 2) }, Color.Red);
+            drawLine.Draw(new Point2D(0,-(pictureBox1.Height / 2)) , new Point2D(0, (pictureBox1.Height / 2)), Color.Red);
             return drawLine.bitmap;
         }
         /// <summary>
@@ -91,8 +93,8 @@ namespace ProjetoCG
             drawLine.bitmap = mBitmap;
             try
             {
-                double[] startPoint = { double.Parse(px1.Text), double.Parse(py1.Text) };
-                double[] endPoint = { double.Parse(px2.Text), double.Parse(py2.Text) };
+                Point2D startPoint = new Point2D(double.Parse(px1.Text), double.Parse(py1.Text));
+                Point2D endPoint = new Point2D(double.Parse(px2.Text), double.Parse(py2.Text));
                 drawLine.Draw(startPoint, endPoint, Color.Blue);
             }
             catch (Exception ex)

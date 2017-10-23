@@ -1,4 +1,5 @@
 ﻿using ProjetoCG.Draw;
+using ProjetoCG.Util;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -15,11 +16,11 @@ namespace ProjetoCG.Objects
             DrawLine drawline = new DrawLine();
             drawline.bitmap = actualBitmap;
             // Draw 1 linha
-            drawline.Draw(new double[] { t.FirstPoint.X, t.FirstPoint.Y }, new double[] { t.SecondPoint.X, t.SecondPoint.Y }, color);
+            drawline.Draw(new Point2D(t.FirstPoint.X, t.FirstPoint.Y), new Point2D(t.SecondPoint.X, t.SecondPoint.Y) , color);
             // Draw 2 linha 
-            drawline.Draw(new double[] { t.SecondPoint.X, t.SecondPoint.Y }, new double[] { t.ThirdPoint.X, t.ThirdPoint.Y }, color);
+            drawline.Draw(new Point2D(t.SecondPoint.X, t.SecondPoint.Y) , new Point2D(t.ThirdPoint.X, t.ThirdPoint.Y) , color);
             // Draw 3 linha
-            drawline.Draw(new double[] { t.ThirdPoint.X, t.ThirdPoint.Y }, new double[] { t.FirstPoint.X, t.FirstPoint.Y }, color);
+            drawline.Draw(new Point2D(t.ThirdPoint.X, t.ThirdPoint.Y) , new Point2D(t.FirstPoint.X, t.FirstPoint.Y) , color);
         }
     }
 }

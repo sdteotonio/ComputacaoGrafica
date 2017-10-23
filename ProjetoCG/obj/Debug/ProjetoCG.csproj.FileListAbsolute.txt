@@ -59,3 +59,12 @@ D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.Prop
 D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache
 D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.exe
 D:\Projetos(D)\VisualStudio\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.pdb
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\bin\Debug\ProjetoCG.exe.config
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.exe
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.pdb
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\bin\Debug\ProjetoCG.exe
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\bin\Debug\ProjetoCG.pdb
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.csprojResolveAssemblyReference.cache
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.Principal.resources
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.Properties.Resources.resources
+C:\Users\sdteotonio\Documents\ComputacaoGrafica\ProjetoCG\obj\Debug\ProjetoCG.csproj.GenerateResource.Cache

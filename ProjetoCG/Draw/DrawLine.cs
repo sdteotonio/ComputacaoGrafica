@@ -13,14 +13,14 @@ namespace ProjetoCG.Draw
     {
         private double x0, x1, y0, y1;
 
-        public void Draw(double[] startPoint, double[] endPoint, Color color)
+        public void Draw(Point2D startPoint, Point2D endPoint, Color color)
         {
             this.color = color;
-            x0 = startPoint[0];
-            y0 = startPoint[1];
+            x0 = startPoint.X;
+            y0 = startPoint.Y;
 
-            x1 = endPoint[0];
-            y1 = endPoint[1];
+            x1 = endPoint.X;
+            y1 = endPoint.Y;
 
             double dx = x1 - x0;
             double dy = y1 - y0;
